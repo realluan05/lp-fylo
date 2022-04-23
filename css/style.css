@@ -56,9 +56,33 @@ button {
 font-family: var(--f-stack-special);
 }
 
+a {
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
 i::before {
   font-family: var(--f-icons);
   font-style: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -69,3 +93,17 @@ i::before {
 /******************************************
  * Estilo do tema
  *************************************** */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.header > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 75px;
+}
