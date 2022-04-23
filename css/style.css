@@ -23,6 +23,7 @@
   --f-weight-700: 700;
   --f-stack-defaut: "Open Sans";
   --f-stack-special: "Raleway";
+  --f-icons: "FontAwesome";
   --body-content: 1200px;
 }
 
@@ -41,6 +42,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background-color: var(--bg-intro);
 }
 
 h1,
@@ -52,6 +54,11 @@ h6,
 a,
 button {
 font-family: var(--f-stack-special);
+}
+
+i::before {
+  font-family: var(--f-icons);
+  font-style: normal;
 }
 
 .container {
