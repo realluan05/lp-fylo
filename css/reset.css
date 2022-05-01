@@ -1,0 +1,60 @@
+/* Reset */
+
+* {
+  font-family: var(--f-stack-defaut);
+  font-size: var(--f-size-defaut);
+  color: var(--c-white);
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-intro);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+font-family: var(--f-stack-special);
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+i::before {
+  font-family: var(--f-icons);
+  font-style: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: var(--body-content);
+  margin: 0 auto;
+}
