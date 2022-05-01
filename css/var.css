@@ -12,11 +12,20 @@
   --c-action-blue: hsl(198, 60%, 50%);
   --c-action-error: hsl(0, 100%, 63%);
   --c-white: hsl(0, 0%, 100%);
-  --f-size-defaut: 14px;
+  --f-size-xxlarge: 35px;
+  --f-size-xlarge: 18px;
+  --f-size-large: 16px;
+  --f-size-default: 14px;
+  --f-size-small: 13px;
+  --f-size-xsmall: 12px;
   --f-weight-400: 400;
   --f-weight-700: 700;
-  --f-stack-defaut: "Open Sans";
+  --f-stack-default: "Open Sans";
   --f-stack-special: "Raleway";
   --f-icons: "FontAwesome";
   --body-content: 1200px;
+  --gap: 10px;
+  --trim-small: 15px;
+  --trim: 30px;
+  --default-border-radius: 50px;
 }
